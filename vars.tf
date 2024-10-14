@@ -10,11 +10,10 @@ variable "name" {
 variable "env" {}
 
 variable "engine_version" {}
-variable "kms_arn" {}
-variable "tags" {}
 variable "subnets" {}
 variable "instance_class" {}
 variable "instance_count" {}
-
+variable "kms_arn" {}
+variable "tags" {}
 
 
